@@ -37,7 +37,6 @@ int main(int argc, const char * argv[]) {
     char verb[256];
     char holiday[256];
     int i;
-    
         scanf("%s%s%s%d", &noun, &verb, &holiday, &i);
         NSLog(@"%s is awesome. I %s them all the time! Next %s you're getting a basket of %d", noun, verb, holiday, i);
     
